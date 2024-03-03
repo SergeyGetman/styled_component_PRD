@@ -1,0 +1,24 @@
+.boxWrapper {
+  display: flex;
+  flex-direction: column;
+  width: 380px;
+
+  @media (max-width: 500px){
+    width: 100%;
+  };
+}
+
+.upload {
+  display: flex;
+  padding-bottom: 50px;
+
+  label {
+    padding: 14px 15px;
+    cursor: pointer;
+  }
+
+  div {
+    padding: 14px 16px;
+    width: 100%;
+  }
+}
